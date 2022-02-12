@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+   
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+<script type="text/javascript" src="script.js"></script>
+<link rel="icon" href="images/cricketert.png">
+
+</head>
+<body>
+    
+
+    <div>
+        <h1 style="text-align:center;font-size: 60px;color: rgb(192, 19, 183); text-shadow: 5px 6px white;margin-top: 0px;">Hand Cricket</h1>
+    </div>
+    <h1 id="achievement"></h1>
+   <div class="player-box">
+        <div class="player-name"> You</div>
+        <div class="player-name"> Computer</div>
+    </div>
+    
+    <div class="score-box">Score : <a id="score-no">0</a></div>
+
+    <div class="image-box">
+        <div id="box">
+            <img src="images/cricketert.png" alt="dice1" id="check1">
+        </div>
+        <div class="box">
+            <img src="images/cricketert.png" alt="dice1" id="check2">
+        </div>
+    </div>
+    <div class="button-box"> 
+        <button onclick="one()" style="height:40px;width:90px;border-radius: 20px">1</button>
+   
+        <button onclick="two()" style="height:40px;width:90px;border-radius: 20px">2</button>
+    
+        <button onclick="three()" style="height:40px;width:90px;border-radius: 20px">3</button>
+    
+        <button onclick="four()" style="height: 40px;width:90px;border-radius: 20px">4</button>
+    
+        <button onclick="five()" style="height: 40px;width:90px;border-radius: 20px">5</button>
+    
+        <button onclick="six()" style="height:40px;width:90px;border-radius: 20px">6</button>
+    </div>
+    <div class="result-box">
+         <h2 style="font-size: 80px; margin-top:0px; color: yellow;text-shadow: 5px 6px white;" id="result">Let's PLay </h2>
+    </div>
+
+</body>
+</html>
